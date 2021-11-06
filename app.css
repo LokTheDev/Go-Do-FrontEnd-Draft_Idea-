@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+}
+
+.topBar{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+}
+
+.menuBtn, .logo{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+#menuBtn{
+    border: none;
+    background-color: white;
+    transition: 1s;
+}
+
+#menuBtn:hover{
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 1s;
+}
+
+.bodyWrapper{
+    display: flex;
+    width: 100%;
+}
+
+
+.slideMenu{
+    opacity: 1;
+    margin-top: 0px;
+    background-color: #ebebeb;
+    min-height: 90vh;
+    min-width: 15vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: black;
+    transition: 1s;
+}
+
+
+
+
+.userInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.userGropImageWrap{
+    margin-top: 25px;
+    border: 5px #3700B3 solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+}
+
+#userGroupImage{    
+    min-width: 60px;
+    min-height: 60px;    
+}
+
+.userName{
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.userGroup{
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+.slideDownMenu_Content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color:#ebebeb;
+    max-width: 12vw;
+    min-height: 50vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
+
+.slideDownMenu_Content > button{
+    margin-top: 30px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.slideDownMenu_Content > button:hover{
+    cursor: pointer;
+}
+
+.noteContentWrapper{
+    width: 100%;
+}
+
+.toolsBar{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    min-height: 30px;
+}
+
+.toolsBar > button{
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+}
+
+.toolsBar > button:hover{
+    cursor: pointer;
+}
+
+.noteSpace{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.notes{
+    max-width: 250px;
+    max-height: 500px;
+    border: #ebebeb solid 5px;
+    
+    margin: 25px;
+    border-radius: 10px;
+}
+
+
+
+
+.notesHead{
+    display: flex;
+    justify-content: space-between;
+    background-color:#ebebeb ;
+}
+
+.notesFooter{
+    background-color:#ebebeb ;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+.notesColour_dot{
+    margin-top: 5px;
+    min-width: 20px;
+    min-height: 20px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#deleteNotes{
+    background-color: transparent;
+    border: none;
+}
